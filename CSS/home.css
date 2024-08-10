@@ -1,0 +1,194 @@
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .contenedor{
+    
+} */
+
+body {
+    background: url('../MULTIMEDIA/Recurso\ 6fondohomeres.png');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    /* overflow-y: auto; */
+}
+
+.contHeader{
+    background: white;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+    width: 70%;
+}
+
+.imgLogo img{
+    margin: 0px 0px;
+    height: 44px;
+}
+
+.listaMenu{
+    display: flex;
+}
+
+.listaMenu li{
+    list-style: none;
+}
+
+.menu{
+    text-decoration: none;
+    color: #0F0E3D;
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.menu:hover{
+    background: #0F0E3D;
+    color: white;
+}
+
+.contenido{
+    margin: 40px 0 0 100px;
+    width: 100%;
+}
+
+.pdescripcion{
+    color: white;
+    width: 45%;
+    margin: 10px 0 20px 0;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.boton{
+    margin: 10px 0;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: solid #FFEF01 1px;
+    border-radius: 17px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton:hover{
+    background-color: #FFEF01;
+    color: #0F0E3D;
+}
+
+.imgExelencia{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1319px) {
+    
+    body{
+        background-size: auto 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+
+
+
+    .menu{
+        font-size: 15px;
+        padding: 16px 10px;
+    }
+
+    .imgLogo img{
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .pdescripcion{
+        width:70%;
+        font-size: 12px;
+    }
+
+    .dlogo{
+        width: 70%;
+    }
+
+    .botones{
+        width: 55%;
+    }
+
+    .contenido{
+        margin:40px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .exelencia{
+        width: 60%;
+    }
+
+    .imgExelencia{
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    header{
+        flex-direction: column;
+    }
+
+    .menu{
+        font-size: 15px;
+        padding: 10px 5px;
+    }
+
+    .imgLogo img{
+        height: 20px;
+        margin: 10px 0px 5px 0px
+    }
+
+    .listaMenu{
+        border-top: solid #0F0E3D 1px ;
+    }
+
+    .pdescripcion{
+        font-size: 16px;
+    }
+
+}
